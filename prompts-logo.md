@@ -12,10 +12,10 @@ Les prompts sont en anglais, car les générateurs donnent de meilleurs résulta
 | Marque principale | **Taxis de l'Essonne** (taxi privé + transport conventionné) |
 | Sous-marque | **Handy Essonne** (transport PMR, fauteuil roulant) |
 | Lieu | Athis-Mons, Essonne (91) |
-| Bleu nuit | `#0A1630` |
-| Bleu | `#1C3A70` |
-| Blanc cassé | `#F5F2EC` |
-| Rouge vermillon | `#E3392C` (petite touche seulement) |
+| Bleu marine | `#0A2463` |
+| Bleu vif | `#1D4ED8` |
+| Blanc | `#FFFFFF` |
+| Rouge | `#E1000F` |
 | Police du site | Bricolage Grotesque, ExtraBold |
 | Ton | Premium, moderne, rassurant, « French touch » |
 
@@ -39,7 +39,7 @@ Les prompts sont en anglais, car les générateurs donnent de meilleurs résulta
 Idée : le point du « i » de *Taxis* devient rouge, comme le voyant lumineux d'un taxi. Simple, mémorable, cohérent avec le site.
 
 ```
-Minimalist wordmark logo for a premium French taxi company. The text reads exactly "Taxis de l'Essonne" in a heavy modern grotesque sans-serif typeface (similar to Bricolage Grotesque ExtraBold), tight letter spacing, deep midnight navy color #0A1630. The dot of the letter "i" in "Taxis" is a perfect vermilion red circle #E3392C, like the glowing roof light of a taxi. Below, in small wide-spaced uppercase letters: "PRIVÉ · CONVENTIONNÉ · PMR". Flat vector design, no gradient, no shadow, no 3D, plain off-white background #F5F2EC, centered, generous margins, luxury Swiss-style brand identity.
+Minimalist wordmark logo for a premium French taxi company. The text reads exactly "Taxis de l'Essonne" in a heavy modern grotesque sans-serif typeface (similar to Bricolage Grotesque ExtraBold), tight letter spacing, deep navy blue color #0A2463. The dot of the letter "i" in "Taxis" is a perfect red circle #E1000F, like the glowing roof light of a taxi. Below, in small wide-spaced uppercase letters: "PRIVÉ · CONVENTIONNÉ · PMR". Flat vector design, no gradient, no shadow, no 3D, plain white background #FFFFFF, centered, generous margins, luxury Swiss-style brand identity.
 ```
 
 ### Prompt 2 : Monogramme « E » (icône, favicon, réseaux sociaux)
@@ -47,7 +47,7 @@ Minimalist wordmark logo for a premium French taxi company. The text reads exact
 Idée : reprend le monogramme provisoire du site (carré arrondi + E + point rouge).
 
 ```
-Minimalist logo mark: a bold geometric capital letter "E" made of thick strokes with slightly rounded ends, in off-white #F5F2EC, centered inside a softly rounded square in deep midnight navy #0A1630. A small vermilion red dot #E3392C sits in the top right corner of the square, like a taxi roof light. Flat vector, perfectly symmetrical, crisp edges, no gradient, no shadow, no 3D, plain off-white background, modern premium French brand, app icon style.
+Minimalist logo mark: a bold geometric capital letter "E" made of thick strokes with slightly rounded ends, in white #FFFFFF, centered inside a softly rounded square in deep navy blue #0A2463. A small red dot #E1000F sits in the top right corner of the square, like a taxi roof light. Flat vector, perfectly symmetrical, crisp edges, no gradient, no shadow, no 3D, plain white background, modern premium French brand, app icon style.
 ```
 
 Paramètres Midjourney à ajouter à la fin :
@@ -61,7 +61,7 @@ Paramètres Midjourney à ajouter à la fin :
 Idée : une ligne continue forme un trajet qui dessine la lettre E et finit sur un point rouge (la destination).
 
 ```
-Minimalist logo symbol: one single continuous bold line in deep navy #0A1630 that draws a winding road and subtly forms the capital letter "E", the line ends on a solid vermilion red dot #E3392C representing the destination. Geometric, thick uniform stroke, rounded line caps, flat vector, no gradient, no shadow, no 3D, plain off-white background #F5F2EC, centered, modern premium transport brand, Awwwards style.
+Minimalist logo symbol: one single continuous bold line in deep navy #0A2463 that draws a winding road and subtly forms the capital letter "E", the line ends on a solid red dot #E1000F representing the destination. Geometric, thick uniform stroke, rounded line caps, flat vector, no gradient, no shadow, no 3D, plain white background #FFFFFF, centered, modern premium transport brand, Awwwards style.
 ```
 
 Paramètres Midjourney :
@@ -75,7 +75,7 @@ Paramètres Midjourney :
 Idée : le bleu-blanc-rouge du client, traité comme une marque de luxe et non comme un drapeau.
 
 ```
-Minimalist logo lockup for a premium French taxi company. The text reads exactly "Taxis de l'Essonne" in a heavy modern grotesque sans-serif, tight letter spacing, deep navy #0A1630. To the left of the text, a tiny signature mark made of two short horizontal bars: one blue #1C3A70 and one vermilion red #E3392C, separated by an empty gap where the white background itself plays the role of the white stripe. Elegant, restrained, not a flag. Flat vector, no gradient, no shadow, plain off-white background #F5F2EC, centered, luxury brand identity.
+Minimalist logo lockup for a premium French taxi company. The text reads exactly "Taxis de l'Essonne" in a heavy modern grotesque sans-serif, tight letter spacing, deep navy #0A2463. To the left of the text, a tiny signature mark made of two short horizontal bars: one blue #1D4ED8 and one red #E1000F, separated by an empty gap where the white background itself plays the role of the white stripe. Elegant, restrained, not a flag. Flat vector, no gradient, no shadow, plain white background #FFFFFF, centered, luxury brand identity.
 ```
 
 ### Prompt 5 : Sous-marque « Handy Essonne » (PMR)
@@ -83,7 +83,7 @@ Minimalist logo lockup for a premium French taxi company. The text reads exactly
 Idée : même univers que la marque principale, avec un pictogramme d'accessibilité moderne, dans sa version dynamique où la personne est en mouvement.
 
 ```
-Minimalist sub-brand logo for "Handy Essonne", an accessible taxi service for wheelchair users. A modern dynamic accessibility icon (a person in a wheelchair leaning forward, in motion) simplified into bold geometric shapes, off-white #F5F2EC, inside a softly rounded square in navy blue #1C3A70, with a small vermilion red dot #E3392C in the top right corner. To the right, the text reads exactly "Handy Essonne" in a heavy modern grotesque sans-serif, deep navy #0A1630. Flat vector, friendly but premium, no gradient, no shadow, no 3D, plain off-white background, centered.
+Minimalist sub-brand logo for "Handy Essonne", an accessible taxi service for wheelchair users. A modern dynamic accessibility icon (a person in a wheelchair leaning forward, in motion) simplified into bold geometric shapes, white #FFFFFF, inside a softly rounded square in navy blue #1D4ED8, with a small red dot #E1000F in the top right corner. To the right, the text reads exactly "Handy Essonne" in a heavy modern grotesque sans-serif, deep navy #0A2463. Flat vector, friendly but premium, no gradient, no shadow, no 3D, plain white background, centered.
 ```
 
 ### Avec une voiture
@@ -95,7 +95,7 @@ Le véhicule du client est un monospace / van adapté PMR : il vaut mieux le rep
 Idée : la route arrive, dessine la silhouette du van, puis repart vers un point rouge, la destination. C'est le « de porte à porte » en image.
 
 ```
-Minimalist logo symbol: a modern minivan seen from the side, drawn with one single continuous bold line in deep navy #0A1630. The line starts as a flat road on the left, rises to draw the vehicle silhouette (roof, windows, two perfectly round wheels), then continues forward as a road and ends on a solid vermilion red dot #E3392C representing the destination. Thick uniform stroke, rounded line caps, geometric, flat vector, no gradient, no shadow, no 3D, plain off-white background #F5F2EC, centered, modern premium transport brand, Awwwards style.
+Minimalist logo symbol: a modern minivan seen from the side, drawn with one single continuous bold line in deep navy #0A2463. The line starts as a flat road on the left, rises to draw the vehicle silhouette (roof, windows, two perfectly round wheels), then continues forward as a road and ends on a solid red dot #E1000F representing the destination. Thick uniform stroke, rounded line caps, geometric, flat vector, no gradient, no shadow, no 3D, plain white background #FFFFFF, centered, modern premium transport brand, Awwwards style.
 ```
 
 Paramètres Midjourney :
@@ -109,7 +109,7 @@ Paramètres Midjourney :
 Idée : une silhouette pleine et simple du van, avec le voyant taxi rouge sur le toit. On reconnaît tout de suite un taxi, sans damier.
 
 ```
-Minimalist logo lockup for a premium French taxi company. On the left, a simplified side-view silhouette of a modern minivan in solid deep navy #0A1630, made of clean geometric shapes, windows cut out in off-white, two round wheels, and a small glowing vermilion red rounded light #E3392C on the roof like a taxi sign. On the right, the text reads exactly "Taxis de l'Essonne" in a heavy modern grotesque sans-serif (similar to Bricolage Grotesque ExtraBold), tight letter spacing, deep navy. Flat vector, no gradient, no shadow, no 3D, plain off-white background #F5F2EC, centered, generous margins, luxury Swiss-style brand identity.
+Minimalist logo lockup for a premium French taxi company. On the left, a simplified side-view silhouette of a modern minivan in solid deep navy #0A2463, made of clean geometric shapes, windows cut out in white, two round wheels, and a small glowing red rounded light #E1000F on the roof like a taxi sign. On the right, the text reads exactly "Taxis de l'Essonne" in a heavy modern grotesque sans-serif (similar to Bricolage Grotesque ExtraBold), tight letter spacing, deep navy. Flat vector, no gradient, no shadow, no 3D, plain white background #FFFFFF, centered, generous margins, luxury Swiss-style brand identity.
 ```
 
 ### Prompt 8 : Handy Essonne, le van à rampe (sous-marque PMR)
@@ -117,7 +117,7 @@ Minimalist logo lockup for a premium French taxi company. On the left, a simplif
 Idée : le même van vu de dos, rampe dépliée, avec un pictogramme fauteuil qui monte. On comprend tout de suite que le véhicule est accessible.
 
 ```
-Minimalist logo symbol for an accessible taxi service: a modern minivan seen from the rear three-quarter view, simplified into bold geometric shapes in navy blue #1C3A70, rear door open with a ramp deployed to the ground, and a simplified dynamic wheelchair user icon in vermilion red #E3392C rolling up the ramp. Friendly but premium, thick clean shapes, flat vector, no gradient, no shadow, no 3D, plain off-white background #F5F2EC, centered, app icon style.
+Minimalist logo symbol for an accessible taxi service: a modern minivan seen from the rear three-quarter view, simplified into bold geometric shapes in navy blue #1D4ED8, rear door open with a ramp deployed to the ground, and a simplified dynamic wheelchair user icon in red #E1000F rolling up the ramp. Friendly but premium, thick clean shapes, flat vector, no gradient, no shadow, no 3D, plain white background #FFFFFF, centered, app icon style.
 ```
 
 Paramètres Midjourney :
@@ -132,8 +132,8 @@ Paramètres Midjourney :
 
 Une fois la bonne piste trouvée, relancer le même prompt en ajoutant à la fin :
 
-- **Version fond sombre** : `on a deep midnight navy background #0A1630, logo in off-white`
-- **Version une couleur** : `single color version, all navy #0A1630, no red`
+- **Version fond sombre** : `on a deep navy blue background #0A2463, logo in white`
+- **Version une couleur** : `single color version, all navy #0A2463, no red`
 - **Plusieurs propositions** : `show 4 variations on a grid`
 
 ---
