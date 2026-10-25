@@ -16,7 +16,7 @@ C'est une version de travail, non référencée par Google tant que le client ne
 │   │   ├── logo-icone.png      le van seul
 │   │   ├── favicon.png         icône de l'onglet du navigateur
 │   │   └── apple-touch-icon.png icône d'écran d'accueil iPhone
-│   └── photos/             Photos du véhicule (à fournir par le client)
+│   └── photos/             Photos du véhicule retouchées (plaque masquée)
 ├── design/                 Fichiers de travail (non utilisés par le site)
 │   ├── logo-source.jpg         logo d'origine généré par IA
 │   ├── detourer-logo.py        génère assets/logo/ à partir du logo d'origine
@@ -58,7 +58,7 @@ Le script retire le fond, recadre le logo et le recolore aux couleurs du site : 
 
 ## Reste à faire avant la mise en ligne définitive
 
-- [ ] Photos du véhicule et de la rampe PMR : originaux reçus (dans `client/`), à retoucher puis déposer dans `assets/photos/`
+- [x] Photos du véhicule et de la rampe PMR (retouchées, plaque masquée ; originaux dans `client/photos/`)
 - [ ] Logo officiel de l'Assurance Maladie (fichier fourni par la CPAM)
 - [ ] Faire confirmer par le client l'arrimage du fauteuil et le type de licence (espèces : confirmé ; rampe : visible sur les photos)
 - [ ] SIRET et page de mentions légales (obligatoire)
