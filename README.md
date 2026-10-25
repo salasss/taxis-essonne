@@ -58,9 +58,9 @@ Le script retire le fond, recadre le logo et le recolore aux couleurs du site : 
 
 ## Reste à faire avant la mise en ligne définitive
 
-- [ ] Photos du véhicule et de la rampe PMR, à déposer dans `assets/photos/`
+- [ ] Photos du véhicule et de la rampe PMR : originaux reçus (dans `client/`), à retoucher puis déposer dans `assets/photos/`
 - [ ] Logo officiel de l'Assurance Maladie (fichier fourni par la CPAM)
-- [ ] Faire confirmer par le client les équipements PMR, le paiement en espèces et le type de licence
+- [ ] Faire confirmer par le client l'arrimage du fauteuil et le type de licence (espèces : confirmé ; rampe : visible sur les photos)
 - [ ] SIRET et page de mentions légales (obligatoire)
 - [ ] Nom de domaine (mettre à jour la balise `canonical`)
 - [ ] Retirer la balise `noindex` de `index.html`

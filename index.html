@@ -21,7 +21,7 @@
   <!-- Polices -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=DM+Serif+Display&display=swap" rel="stylesheet" />
 
   <!-- Tailwind (CDN, version figée) -->
   <script src="https://cdn.tailwindcss.com/3.4.16"></script>
@@ -39,6 +39,7 @@
           },
           fontFamily: {
             sans: ['"Bricolage Grotesque"', 'system-ui', 'sans-serif'],
+            roman: ['"DM Serif Display"', 'Georgia', 'serif'],  // chiffres romains (à la demande du client)
           },
           letterSpacing: { tightest: '-0.04em' },
         },
@@ -268,12 +269,12 @@
           <!-- 01 · Taxi privé -->
           <article class="reveal flex flex-col rounded-[32px] bg-bone/60 p-8 transition-transform duration-500 hover:-translate-y-1 sm:p-12 lg:col-span-7">
             <div class="flex items-center justify-between">
-              <span class="text-5xl text-navy-600">01</span>
+              <span class="font-roman text-5xl text-navy-600">I</span>
               <span class="rounded-full border border-ink/15 px-4 py-1.5 font-medium text-xs uppercase tracking-[0.18em]">Particuliers &amp; pros</span>
             </div>
             <h3 class="mt-16 text-4xl font-bold tracking-tight sm:text-5xl">Taxi privé</h3>
             <p class="mt-5 max-w-lg text-xl leading-relaxed text-mist">
-              Gare, aéroport, rendez-vous professionnel ou soirée à Paris&nbsp;: réservez votre course à l’avance ou au dernier moment.
+              Gare, aéroport, rendez-vous professionnel, sortie en famille ou soirée à Paris&nbsp;: réservez votre course à l’avance ou au dernier moment.
               Vous montez, on s’occupe du reste.
             </p>
             <ul class="mt-auto grid gap-x-8 pt-10 text-[17px] font-medium sm:grid-cols-2">
@@ -281,13 +282,15 @@
               <li class="flex items-center gap-3 border-t border-ink/10 py-4"><span class="h-1.5 w-1.5 rounded-full bg-rouge"></span>Gares parisiennes &amp; Massy TGV</li>
               <li class="flex items-center gap-3 border-t border-ink/10 py-4"><span class="h-1.5 w-1.5 rounded-full bg-rouge"></span>Paris &amp; toute l’Île-de-France</li>
               <li class="flex items-center gap-3 border-t border-ink/10 py-4"><span class="h-1.5 w-1.5 rounded-full bg-rouge"></span>Courses réservées à l’avance</li>
+              <li class="flex items-center gap-3 border-t border-ink/10 py-4"><span class="h-1.5 w-1.5 rounded-full bg-rouge"></span>Transports en famille</li>
+              <li class="flex items-center gap-3 border-t border-ink/10 py-4"><span class="h-1.5 w-1.5 rounded-full bg-rouge"></span>Siège bébé à disposition</li>
             </ul>
           </article>
 
           <!-- 02 · Conventionné -->
           <article class="reveal reveal-d1 flex flex-col rounded-[32px] bg-ink p-8 text-paper transition-transform duration-500 hover:-translate-y-1 sm:p-12 lg:col-span-5">
             <div class="flex items-center justify-between">
-              <span class="text-5xl text-paper/60">02</span>
+              <span class="font-roman text-5xl text-paper/60">II</span>
               <!-- Emplacement logo Assurance Maladie (fichier officiel à insérer) -->
               <div class="grid h-16 w-24 place-items-center rounded-2xl border border-dashed border-paper/30 bg-paper/5 text-center font-medium text-[10px] uppercase leading-tight tracking-wider text-paper/60">Logo<br />Assurance Maladie</div>
             </div>
@@ -307,7 +310,7 @@
           <article class="reveal grid overflow-hidden rounded-[32px] border border-ink/10 bg-white/40 lg:col-span-12 lg:grid-cols-2">
             <div class="flex flex-col p-8 sm:p-12">
               <div class="flex items-center justify-between">
-                <span class="text-5xl text-navy-600">03</span>
+                <span class="font-roman text-5xl text-navy-600">III</span>
                 <span class="inline-flex items-center gap-2 rounded-full bg-navy-600 px-4 py-1.5 font-medium text-xs uppercase tracking-[0.18em] text-paper">
                   <svg class="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="4" r="1.6"/><path d="M11 7v6h5l2 5"/><path d="M8 10a6 6 0 1 0 7.5 8.5"/></svg>
                   Handy Essonne
@@ -360,21 +363,21 @@
 
         <ol class="lg:col-span-6 lg:col-start-7">
           <li class="reveal grid grid-cols-[auto,1fr] gap-6 border-t border-ink/10 py-10 sm:gap-10">
-            <span class="text-6xl leading-none text-rouge sm:text-7xl">1</span>
+            <span class="font-roman text-6xl leading-none text-rouge sm:text-7xl">I</span>
             <div>
               <h3 class="text-2xl font-bold tracking-tight">La prescription</h3>
               <p class="mt-3 text-xl leading-relaxed text-mist">Votre médecin établit une prescription médicale de transport, le « bon de transport », adaptée à votre état de santé.</p>
             </div>
           </li>
           <li class="reveal grid grid-cols-[auto,1fr] gap-6 border-t border-ink/10 py-10 sm:gap-10">
-            <span class="text-6xl leading-none text-rouge sm:text-7xl">2</span>
+            <span class="font-roman text-6xl leading-none text-rouge sm:text-7xl">II</span>
             <div>
               <h3 class="text-2xl font-bold tracking-tight">La réservation</h3>
               <p class="mt-3 text-xl leading-relaxed text-mist">Vous nous appelez avec la date, l’heure et l’adresse du rendez-vous. Nous organisons l’aller et, si besoin, le retour.</p>
             </div>
           </li>
           <li class="reveal grid grid-cols-[auto,1fr] gap-6 border-y border-ink/10 py-10 sm:gap-10">
-            <span class="text-6xl leading-none text-rouge sm:text-7xl">3</span>
+            <span class="font-roman text-6xl leading-none text-rouge sm:text-7xl">III</span>
             <div>
               <h3 class="text-2xl font-bold tracking-tight">Le trajet</h3>
               <p class="mt-3 text-xl leading-relaxed text-mist">Le jour venu, présentez votre carte Vitale et la prescription. Nous nous occupons de la facturation auprès de l’Assurance Maladie.</p>
@@ -403,22 +406,22 @@
 
         <div class="mt-20 grid border-t border-paper/10 sm:grid-cols-2 lg:grid-cols-4">
           <div class="reveal border-b border-paper/10 py-10 sm:pr-8 lg:border-b-0 lg:border-r">
-            <span class="font-medium text-[13px] text-rouge">01</span>
+            <span class="font-roman text-xl text-rouge">I</span>
             <h3 class="mt-4 text-xl font-semibold">Tarif réglementé</h3>
             <p class="mt-3 leading-relaxed text-paper/60">Les tarifs maximums sont fixés par arrêté préfectoral et affichés dans le véhicule.</p>
           </div>
           <div class="reveal reveal-d1 border-b border-paper/10 py-10 sm:pl-8 lg:border-b-0 lg:border-r lg:px-8">
-            <span class="font-medium text-[13px] text-rouge">02</span>
+            <span class="font-roman text-xl text-rouge">II</span>
             <h3 class="mt-4 text-xl font-semibold">Taximètre homologué</h3>
             <p class="mt-3 leading-relaxed text-paper/60">Le prix est calculé selon la distance, le temps et le tarif en vigueur (jour, nuit, dimanche).</p>
           </div>
           <div class="reveal reveal-d2 border-b border-paper/10 py-10 sm:border-b-0 sm:pr-8 lg:border-r lg:px-8">
-            <span class="font-medium text-[13px] text-rouge">03</span>
+            <span class="font-roman text-xl text-rouge">III</span>
             <h3 class="mt-4 text-xl font-semibold">Estimation offerte</h3>
             <p class="mt-3 leading-relaxed text-paper/60">Un simple appel suffit pour connaître le prix approximatif de votre trajet avant de réserver.</p>
           </div>
           <div class="reveal reveal-d3 py-10 sm:pl-8">
-            <span class="font-medium text-[13px] text-rouge">04</span>
+            <span class="font-roman text-xl text-rouge">IV</span>
             <h3 class="mt-4 text-xl font-semibold">Paiement simple</h3>
             <p class="mt-3 leading-relaxed text-paper/60">Carte bancaire ou espèces. Une note vous est remise en fin de course.</p>
           </div>
