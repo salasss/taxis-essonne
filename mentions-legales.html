@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mentions légales | Taxis de l’Essonne</title>
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="theme-color" content="#0A2463" />
+  <link rel="icon" type="image/png" href="assets/logo/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: '#0A2463',
+            navy: { 600: '#1D4ED8' },
+            paper: '#FFFFFF',
+            bone: '#EEF3FC',
+            rouge: '#E1000F',
+            mist: '#4B5B7C',
+          },
+          fontFamily: {
+            sans: ['"Bricolage Grotesque"', 'system-ui', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+</head>
+
+<body class="bg-paper text-ink antialiased">
+  <header class="border-b border-ink/10">
+    <div class="mx-auto flex h-20 max-w-3xl items-center justify-between px-4 sm:px-8">
+      <a href="index.html" class="shrink-0">
+        <img src="assets/logo/logo.png" alt="Taxis de l’Essonne — retour à l’accueil" width="1200" height="229" class="h-10 w-auto" />
+      </a>
+      <a href="index.html" class="text-sm font-semibold hover:text-navy-600">← Retour au site</a>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-3xl px-4 py-16 sm:px-8 sm:py-24">
+    <h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl">Mentions légales</h1>
+
+    <section class="mt-14">
+      <h2 class="text-xl font-bold">Éditeur du site</h2>
+      <dl class="mt-4 grid gap-x-8 gap-y-2 text-mist sm:grid-cols-[14rem,1fr]">
+        <dt class="font-medium text-ink">Raison sociale</dt><dd>BOAAS</dd>
+        <dt class="font-medium text-ink">Nom commercial</dt><dd>Taxis de l’Essonne</dd>
+        <dt class="font-medium text-ink">Forme juridique</dt><dd>Société par actions simplifiée (SAS)<!-- Capital social à ajouter : « au capital de … € » --></dd>
+        <dt class="font-medium text-ink">Siège social</dt><dd>4 rue Victor Basch, 91200 Athis-Mons</dd>
+        <dt class="font-medium text-ink">SIREN</dt><dd>925 403 495<!-- RCS à confirmer sur le Kbis (probablement RCS Évry) --></dd>
+        <dt class="font-medium text-ink">SIRET</dt><dd>925 403 495 00029</dd>
+        <dt class="font-medium text-ink">TVA intracommunautaire</dt><dd>FR75925403495</dd>
+        <dt class="font-medium text-ink">Activité</dt><dd>Transport de voyageurs par taxi</dd>
+        <dt class="font-medium text-ink">Téléphone</dt><dd><a href="tel:+33626201530" class="hover:text-navy-600">06 26 20 15 30</a></dd>
+        <dt class="font-medium text-ink">E-mail</dt><dd><a href="mailto:aissa.cherrou@gmail.com" class="break-all hover:text-navy-600">aissa.cherrou@gmail.com</a></dd>
+        <dt class="font-medium text-ink">Directeur de la publication</dt><dd>Aissa Cherrou, président</dd>
+      </dl>
+    </section>
+
+    <section class="mt-12">
+      <h2 class="text-xl font-bold">Hébergement</h2>
+      <!-- À mettre à jour en cas de changement d'hébergeur -->
+      <p class="mt-4 leading-relaxed text-mist">
+        GitHub, Inc. (GitHub Pages)<br />
+        88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis<br />
+        <a href="https://github.com" class="hover:text-navy-600">github.com</a>
+      </p>
+    </section>
+
+    <section class="mt-12">
+      <h2 class="text-xl font-bold">Tarifs</h2>
+      <p class="mt-4 leading-relaxed text-mist">
+        Les courses sont facturées au compteur, selon les tarifs réglementés des taxis fixés par arrêté préfectoral et affichés dans le véhicule.
+        Les transports sur prescription médicale sont facturés selon la convention signée avec l’Assurance Maladie.
+      </p>
+    </section>
+
+    <section class="mt-12">
+      <h2 class="text-xl font-bold">Propriété intellectuelle</h2>
+      <p class="mt-4 leading-relaxed text-mist">
+        L’ensemble des contenus de ce site (textes, photographies, logo) est la propriété de BOAAS, sauf mention contraire.
+        Toute reproduction, même partielle, est interdite sans autorisation préalable.
+      </p>
+    </section>
+
+    <section class="mt-12">
+      <h2 class="text-xl font-bold">Données personnelles et cookies</h2>
+      <p class="mt-4 leading-relaxed text-mist">
+        Ce site ne comporte aucun formulaire, ne collecte aucune donnée personnelle et ne dépose aucun cookie de suivi ou de mesure d’audience.
+        Les polices de caractères et la mise en forme sont chargées depuis des services tiers (Google Fonts, Tailwind CSS), ce qui transmet l’adresse IP du visiteur à ces services.
+      </p>
+      <p class="mt-4 leading-relaxed text-mist">
+        Pour toute question, vous pouvez écrire à <a href="mailto:aissa.cherrou@gmail.com" class="break-all text-ink hover:text-navy-600">aissa.cherrou@gmail.com</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer class="bg-ink text-paper/50">
+    <div class="mx-auto max-w-3xl px-4 py-8 text-sm sm:px-8">
+      © 2026 Taxis de l’Essonne · BOAAS SAS
+    </div>
+  </footer>
+</body>
+</html>

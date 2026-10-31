@@ -9,6 +9,7 @@ C'est une version de travail, non référencée par Google tant que le client ne
 
 ```
 ├── index.html              Le site (page unique, publiée par GitHub Pages)
+├── mentions-legales.html   Mentions légales (obligatoires)
 ├── assets/
 │   ├── logo/               Logo et icônes utilisés par le site
 │   │   ├── logo.png            logo complet (fond clair)
@@ -59,9 +60,11 @@ Le script retire le fond, recadre le logo et le recolore aux couleurs du site : 
 ## Reste à faire avant la mise en ligne définitive
 
 - [x] Photos du véhicule et de la rampe PMR (retouchées, plaque masquée ; originaux dans `client/photos/`)
-- [ ] Logo officiel de l'Assurance Maladie (fichier fourni par la CPAM)
+- [x] Badge « Taxi conventionné CPAM » (badge maison : le logo officiel de l'Assurance Maladie est une marque protégée)
 - [ ] Faire confirmer par le client l'arrimage du fauteuil et le type de licence (espèces : confirmé ; rampe : visible sur les photos)
-- [ ] SIRET et page de mentions légales (obligatoire)
+- [x] SIRET et page de mentions légales (`mentions-legales.html`)
+- [ ] Mentions légales : ajouter le capital social, confirmer le RCS et l'adresse du siège (Kbis)
+- [ ] Mettre à jour l'hébergeur dans les mentions légales en cas de changement
 - [ ] Nom de domaine (mettre à jour la balise `canonical`)
 - [ ] Retirer la balise `noindex` de `index.html`
 - [ ] Logo en vectoriel (SVG) pour l'impression
