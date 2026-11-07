@@ -2,11 +2,12 @@
 
 Site vitrine d'un artisan taxi basé à Athis-Mons (Essonne, 91) : taxi privé, transport médical conventionné CPAM et transport PMR (Handy Essonne).
 
-**Adresse du site** : https://www.taxisdelessonne.fr/ (le nom de domaine sans www redirige vers celle-ci)
+**Adresse du site** : https://taxisdelessonne.fr/ (l'adresse avec www redirige vers celle-ci)
 
 - **Nom de domaine** : chez OVH (3 ans, renouvellement novembre 2029), propriétaire BOAAS
 - **Hébergement** : Netlify (gratuit), relié à ce dépôt GitHub : chaque `git push` met le site à jour
-- **Adresse Netlify** : https://candid-semifreddo-9abb3f.netlify.app
+- **Adresse Netlify** : https://taxisdelessonne.netlify.app
+- **DNS chez OVH** : A (sous-domaine vide) → `75.2.60.5` ; CNAME `www` → `taxisdelessonne.netlify.app.`
 
 ## Structure
 

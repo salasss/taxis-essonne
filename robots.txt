@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /design/
 
-Sitemap: https://www.taxisdelessonne.fr/sitemap.xml
+Sitemap: https://taxisdelessonne.fr/sitemap.xml
