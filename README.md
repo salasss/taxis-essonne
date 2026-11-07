@@ -2,14 +2,20 @@
 
 Site vitrine d'un artisan taxi basé à Athis-Mons (Essonne, 91) : taxi privé, transport médical conventionné CPAM et transport PMR (Handy Essonne).
 
-**Aperçu en ligne** : https://salasss.github.io/taxis-essonne/
-C'est une version de travail, non référencée par Google tant que le client ne l'a pas validée.
+**Adresse du site** : https://www.taxisdelessonne.fr/ (le nom de domaine sans www redirige vers celle-ci)
+
+- **Nom de domaine** : chez OVH (3 ans, renouvellement novembre 2029), propriétaire BOAAS
+- **Hébergement** : Netlify (gratuit), relié à ce dépôt GitHub : chaque `git push` met le site à jour
+- **Adresse Netlify** : https://candid-semifreddo-9abb3f.netlify.app
 
 ## Structure
 
 ```
-├── index.html              Le site (page unique, publiée par GitHub Pages)
+├── index.html              Le site (page unique)
 ├── mentions-legales.html   Mentions légales (obligatoires)
+├── 404.html                Page « introuvable »
+├── robots.txt, sitemap.xml Indications pour Google
+├── netlify.toml            Réglages Netlify (sécurité, fichiers de travail non publiés)
 ├── assets/
 │   ├── logo/               Logo et icônes utilisés par le site
 │   │   ├── logo.png            logo complet (fond clair)
@@ -18,14 +24,14 @@ C'est une version de travail, non référencée par Google tant que le client ne
 │   │   ├── favicon.png         icône de l'onglet du navigateur
 │   │   └── apple-touch-icon.png icône d'écran d'accueil iPhone
 │   └── photos/             Photos du véhicule retouchées (plaque masquée)
-├── design/                 Fichiers de travail (non utilisés par le site)
+├── design/                 Fichiers de travail (bloqués sur le site par netlify.toml)
 │   ├── logo-source.jpg         logo d'origine généré par IA
 │   ├── detourer-logo.py        génère assets/logo/ à partir du logo d'origine
 │   └── prompts-logo.md         prompts utilisés pour générer le logo
 └── client/                 Documents privés du client (exclus de Git)
 ```
 
-## Mettre à jour l'aperçu
+## Mettre à jour le site
 
 Après une modification :
 
@@ -35,7 +41,7 @@ git commit -m "Description du changement"
 git push
 ```
 
-Le lien d'aperçu se met à jour tout seul en 1 à 2 minutes.
+Netlify met le site à jour tout seul en moins d'une minute.
 
 ## Changer le logo
 
