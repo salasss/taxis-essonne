@@ -1,6 +1,6 @@
 """Détourage du logo JPG : fond retiré (color-to-alpha), recadrage, déclinaisons web.
 
-Usage : python design/detourer-logo.py design/logo-source.jpg assets/logo
+Usage : python design/detourer-logo.py design/logo-source.jpg site/assets/logo
 """
 import sys
 from pathlib import Path

@@ -1,0 +1,11 @@
+# En-têtes HTTP (format commun à Netlify et Cloudflare Pages)
+
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+# Logos et photos : mis en cache une semaine par les navigateurs
+/assets/*
+  Cache-Control: public, max-age=604800

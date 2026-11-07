@@ -1,44 +1,5 @@
 # Configuration de l'hébergement Netlify (déploiement automatique à chaque git push)
+# Seul le dossier site/ est publié ; les en-têtes HTTP sont dans site/_headers.
 
 [build]
-  publish = "."
-
-# Fichiers de travail présents dans le dépôt mais à ne pas servir sur le site
-[[redirects]]
-  from = "/design/*"
-  to = "/404.html"
-  status = 404
-  force = true
-
-[[redirects]]
-  from = "/README.md"
-  to = "/404.html"
-  status = 404
-  force = true
-
-[[redirects]]
-  from = "/readme.md"
-  to = "/404.html"
-  status = 404
-  force = true
-
-[[redirects]]
-  from = "/netlify.toml"
-  to = "/404.html"
-  status = 404
-  force = true
-
-# En-têtes de sécurité
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Content-Type-Options = "nosniff"
-    X-Frame-Options = "DENY"
-    Referrer-Policy = "strict-origin-when-cross-origin"
-    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
-
-# Logos et photos : mis en cache une semaine par les navigateurs
-[[headers]]
-  for = "/assets/*"
-  [headers.values]
-    Cache-Control = "public, max-age=604800"
+  publish = "site"
