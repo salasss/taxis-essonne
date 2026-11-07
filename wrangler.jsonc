@@ -1,0 +1,12 @@
+// Configuration de l'hébergement Cloudflare (Worker « taxisdelessonne »)
+// Chaque git push sur main met le site à jour. Seul le dossier site/ est publié ;
+// les en-têtes HTTP sont dans site/_headers.
+{
+  "name": "taxisdelessonne",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./site",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  }
+}
