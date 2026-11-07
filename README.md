@@ -72,7 +72,10 @@ Le script retire le fond, recadre le logo et le recolore aux couleurs du site : 
 - [x] SIRET et page de mentions légales (`mentions-legales.html`)
 - [ ] Mentions légales : ajouter le capital social, confirmer le RCS et l'adresse du siège (Kbis)
 - [ ] Mettre à jour l'hébergeur dans les mentions légales en cas de changement
-- [ ] Nom de domaine (mettre à jour la balise `canonical`)
-- [ ] Retirer la balise `noindex` de `index.html`
+- [x] Nom de domaine taxisdelessonne.fr (OVH) et hébergement Netlify, https actif
+- [x] Balise `noindex` retirée : site ouvert à Google (7/11/2026)
+- [ ] Passer le propriétaire du domaine au nom de BOAAS (OVH → Changer de propriétaire)
+- [ ] Désactiver l'ancien aperçu GitHub Pages
+- [ ] Déclarer le site dans Google Search Console et créer la fiche Google Maps
 - [ ] Logo en vectoriel (SVG) pour l'impression
 - [ ] Remplacer le CDN Tailwind par une feuille de style compilée
